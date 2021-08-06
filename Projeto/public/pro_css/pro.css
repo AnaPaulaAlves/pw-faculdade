@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+
+  .body{
+    padding-left: 10%;
+     padding-right: 10%; 
+     max-width: 1280px;
+     max-height: 1280px;
+  }
+
+
+/* FIM NAVBAR */
+
+
+
+.img{
+    width: 640px;
+    max-width: 1280px;
+    font-size: 0;
+    margin: 0 auto;
+    height: 280;
+}
+
+
+/* IMAGEM */
+
+.img-640{
+    /* width: 595px;
+    height: 450px;
+    max-width: 100%;
+    margin-right: 100%;
+    min-width: 100%;
+    min-height: 100%;  */
+    width: 640px;
+    max-width: 780px;
+    font-size: 0;
+    margin: 0 auto;
+    height: 480px;
+    max-height: 340px;
+}
+
+.img-150{
+    width: 250px;
+    height: 250px;
+}
+
+.h5{
+    color: black;
+}
+
+
+  .card{
+      padding: 30px;
+      padding-bottom: 10px;
+      /* width: 1280px; */
+  }
+
+  .h2{
+      text-align: center;
+      /* padding-top: 30px; */
+  }
+
+.h3{
+    color:black
+}
+
+.carousel-inner{
+    width: 100%;
+    max-width: 1280px;
+    /* font-size: 0;
+    height: 400px; */
+    /* max-height: 1280px; */
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and(max-width: 768px){
+    section, aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+/* ################################################################################################################# */
+
+/* NAVBAR */
+.navbar{
+    background-color:#ffc7c7;
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    font-family: Great Vibes;
+    font-size: 18px;
+    }
+
+
+.nav-link:hover{
+    color:darkviolet;
+}
+
+.navbar-expand-lg{
+    color: black;
+}
+
+.active{
+    color: black;
+}
+/* FIM NAVBAR */
+
+/* HEADER */
+.header{
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    /* background: rgba(0,0,0,0.6); */
+}
+
+.description{
+    left: 10%;
+    left: 3%;
+    right: 3%;
+    top: 50%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    /* top: 50%; */
+    text-align: center;
+    
+    /* transform: translate(-50%, -50%); SEMPRE NO MEIO */
+}
+
+
+.description p{
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 18px;
+    text-align: justify;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* FIM HEADER */
+
+
+/* IMAGENS VIDEOS */
+
+.img-640{
+    /* width: 595px;
+    height: 450px;
+    max-width: 100%;
+    margin-right: 100%;*/
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 1280px;
+    max-height: 680px;
+    /* width: 640px;
+    min-width: 780px;
+    font-size: 0;
+    margin: 0 auto;
+    height: 480px;
+    min-height: 340px; */
+}
+
+.iframe-vi{
+    width: 340px;
+    max-width: 1280px;
+    font-size: 0;
+    margin: 0 auto;
+    height: 480px;
+    max-height: 340px;
+    padding-left: 0px;
+}
+
+.containerr
+{
+
+  max-width: 1280px ;
+  margin: 0 auto;
+  /* left: 50%; */
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  min-height: 100px;
+  }
+
+  .cointaner{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* box-sizing: border-box; */
+}
+
+
+.h1{
+    font-family: Century Schoolbook;
+    text-align: center;
+    padding-top: 30px;
+}
+/* 
+.h2{
+    font-family:Arial;
+    text-align: center;
+    padding-top: 50px;
+} */
+
+.ex{
+    background-color: #ffc7c7;
+    padding-top: 50px;
+}
+
+   .footer /*RODAPÉ*/ {
+     height: 180px; /*ALTURA*/
+     width: 1280px;
+
+   }
+
+   .rodape{
+       width: 1200px;
+       background-color: white;
+   }
